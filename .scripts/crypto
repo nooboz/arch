@@ -1,0 +1,75 @@
+#!/usr/bin/env python 
+
+# Simple cryptocurrency status display for i3blocks using rate.sx API
+
+# Copyright 2021 Estevão Santana
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+import subprocess
+import re
+from os import environ as env
+
+# Get parameters from the environment variables passed from i3blocks config file
+def getParams(envs):
+    values = dict()
+    for p in envs: 
+       value = env.get(p).strip()
+       values.update({p:value})
+    return values
+
+# Get raw data from the API. 
+def getData(params):
+    cmd = "curl -s -f '{}.rate.sx/{}@{}?qT' | sed '/begin/p;/avg/p'".format(
+        params['CURRENCY'], params['COIN'], params['PERIOD']
+    )
+    return str(subprocess.check_output(cmd,shell=True))
+
+def getFormated(value):
+    color = {'-':'#FF0000','+':'#00FF00'}
+    span = "<span color='{}'>'"
+    if '-' in value:
+        sym = '-'
+    else:
+        sym = '+'
+    return span.format(color[sym])
+
+# Return the crypto status values on a list. 
+def getValues(data_str, params):
+    patterns = [        
+        r'(?<=end:\s)\$?\d*\.\d*',
+        r'(?<=change:\s)[\+|\-]\d*\.?\d*\s',
+        r'(?<=\()[\+|\-]\d*\.\d*\%(?=\))'
+    ]
+    
+    vls = list()
+    vls.append(params['COIN'].upper() + ':')
+    
+    for px in patterns:
+        vls.append(re.search(px,data_str).group())
+    
+    vls.insert(2,params['CURRENCY'].upper() + ' ' + getFormated(vls[3]))
+    vls.append("</span> " + params['PERIOD'])
+   
+    return vls        
+    
+envs = getParams(['COIN', 'CURRENCY', 'PERIOD', 'SHOW_CHANGE'])
+values = getValues(getData(envs), envs)
+
+if envs['SHOW_CHANGE'] == 'true':
+    print('  '.join(values))
+else:
+    print('  '.join(values[:3]))
+
+

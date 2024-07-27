@@ -1,0 +1,29 @@
+[aceto ~]$ sudo pacman -S mpv
+risoluzione delle dipendenze in corso...
+ricerca dei pacchetti in conflitto in corso...
+
+Pacchetti (8) libpipewire-1:1.2.1-1  libsixel-1.10.3-6  libxpresent-1.0.1-2
+              luajit-2.1.1720049189-1  mujs-1.3.5-1  openal-1.23.1-2  uchardet-0.0.8-3
+              mpv-1:0.38.0-6
+
+Dimensione totale dei pacchetti da scaricare:    3,30 MiB
+Dimensione totale dei pacchetti da installare:  11,34 MiB
+
+:: Vuoi procedere con l'installazione? [S/n] n
+[aceto ~]$ sudo pacman -S celluloid
+risoluzione delle dipendenze in corso...
+ricerca dei pacchetti in conflitto in corso...
+
+Pacchetti (22) appstream-1.0.3-1  graphene-1.10.8-1  gssdp-1.6.3-1  gst-plugins-bad-libs-1.24.5-2
+               gst-plugins-base-libs-1.24.5-2  gstreamer-1.24.5-2  gtk4-1:4.14.4-2  gupnp-1:1.6.6-1
+               gupnp-igd-1.6.0-1  libadwaita-1:1.5.2-1  libnice-0.1.22-1  libpipewire-1:1.2.1-1
+               libsixel-1.10.3-6  libxmlb-0.3.19-1  libxpresent-1.0.1-2  libyaml-0.2.5-3
+               luajit-2.1.1720049189-1  mpv-1:0.38.0-6  mujs-1.3.5-1  openal-1.23.1-2
+               uchardet-0.0.8-3  celluloid-0.27-1
+
+Dimensione totale dei pacchetti da scaricare:    22,38 MiB
+Dimensione totale dei pacchetti da installare:  123,19 MiB
+
+:: Vuoi procedere con l'installazione? [S/n] n
+[aceto ~]$
+

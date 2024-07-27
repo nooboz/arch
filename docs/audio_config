@@ -1,0 +1,21 @@
+Exec after boot (2): 
+pacmd load-module module-jack-source channels=2; pacmd load-module module-jack-sink channels=2;
+
+Exec script after stop (4): 
+killall jackd
+
+Install alsa-utils, pulseaudio, pulseaudio-jack (Arch) / pulseaudio-modle-jack (debian/devuan)
+sudo apt install alsa-utils pulseaudio pulseaudio-module-jack
+
+https://jackaudio.org/faq/linux_rt_config.html
+sudo vim /etc/security/limits.conf
+@audio   -  rtprio     95
+@audio   -  memlock    unlimited
+
+grep -Ri audio /etc/group
+
+sudo groupadd audio
+sudo usermod -a -G audio yourUserID
+
+###############################################################################################
+

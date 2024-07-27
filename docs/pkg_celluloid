@@ -1,0 +1,69 @@
+[aceto ~]$ sudo pacman -S celluloid 
+[sudo] password di aceto: 
+risoluzione delle dipendenze in corso...
+ricerca dei pacchetti in conflitto in corso...
+
+Pacchetti (14) appstream-1.0.3-1  graphene-1.10.8-1  gssdp-1.6.3-1  gst-plugins-bad-libs-1.24.5-2
+               gst-plugins-base-libs-1.24.5-2  gstreamer-1.24.5-2  gtk4-1:4.14.4-2  gupnp-1:1.6.6-1  gupnp-igd-1.6.0-1
+               libadwaita-1:1.5.2-1  libnice-0.1.22-1  libxmlb-0.3.19-1  libyaml-0.2.5-3  celluloid-0.27-1
+
+Dimensione totale dei pacchetti da scaricare:    19,08 MiB
+Dimensione totale dei pacchetti da installare:  111,85 MiB
+
+:: Vuoi procedere con l'installazione? [S/n] 
+:: Download dei pacchetti in corso...
+ gtk4-1:4.14.4-2-x86_64                            8,4 MiB   606 KiB/s 00:14 [############################################] 100%
+ gst-plugins-bad-libs-1.24.5-2-x86_64              2,6 MiB   549 KiB/s 00:05 [############################################] 100%
+ gst-plugins-base-libs-1.24.5-2-x86_64             2,2 MiB   497 KiB/s 00:05 [############################################] 100%
+ appstream-1.0.3-1-x86_64                          2,2 MiB   525 KiB/s 00:04 [############################################] 100%
+ gstreamer-1.24.5-2-x86_64                      2025,7 KiB   653 KiB/s 00:03 [############################################] 100%
+ libadwaita-1:1.5.2-1-x86_64                     608,6 KiB   567 KiB/s 00:01 [############################################] 100%
+ libnice-0.1.22-1-x86_64                         313,7 KiB   636 KiB/s 00:00 [############################################] 100%
+ celluloid-0.27-1-x86_64                         245,4 KiB   518 KiB/s 00:00 [############################################] 100%
+ graphene-1.10.8-1-x86_64                        196,3 KiB   496 KiB/s 00:00 [############################################] 100%
+ libxmlb-0.3.19-1-x86_64                         150,9 KiB   467 KiB/s 00:00 [############################################] 100%
+ gupnp-1:1.6.6-1-x86_64                          126,4 KiB   533 KiB/s 00:00 [############################################] 100%
+ gssdp-1.6.3-1-x86_64                             58,7 KiB   314 KiB/s 00:00 [############################################] 100%
+ libyaml-0.2.5-3-x86_64                           57,9 KiB   334 KiB/s 00:00 [############################################] 100%
+ gupnp-igd-1.6.0-1-x86_64                         28,8 KiB   154 KiB/s 00:00 [############################################] 100%
+ Totale (14/14)                                   19,1 MiB   547 KiB/s 00:36 [############################################] 100%
+(14/14) verifica delle chiavi presenti nel portachiavi                       [############################################] 100%
+(14/14) verifica dell'integrità dei pacchetti                                [############################################] 100%
+(14/14) caricamento dei file dei pacchetti                                   [############################################] 100%
+(14/14) controllo dei conflitti in corso                                     [############################################] 100%
+(14/14) controllo dello spazio disponibile sul disco                         [############################################] 100%
+:: Elaborazione delle modifiche al pacchetto...
+( 1/14) installazione in corso di graphene                                   [############################################] 100%
+( 2/14) installazione in corso di gstreamer                                  [############################################] 100%
+Dipendenze opzionali di gstreamer
+    python: gst-plugins-doc-cache-generator [installato]
+( 3/14) installazione in corso di gst-plugins-base-libs                      [############################################] 100%
+( 4/14) installazione in corso di gssdp                                      [############################################] 100%
+Dipendenze opzionali di gssdp
+    gtk4: gssdp-device-sniffer[in attesa]
+( 5/14) installazione in corso di gupnp                                      [############################################] 100%
+Dipendenze opzionali di gupnp
+    python: gupnp-binding-tool [installato]
+( 6/14) installazione in corso di gupnp-igd                                  [############################################] 100%
+( 7/14) installazione in corso di libnice                                    [############################################] 100%
+Dipendenze opzionali di libnice
+    gstreamer: "nice" GStreamer plugin [installato]
+( 8/14) installazione in corso di gst-plugins-bad-libs                       [############################################] 100%
+( 9/14) installazione in corso di gtk4                                       [############################################] 100%
+Dipendenze opzionali di gtk4
+    evince: Default print preview command
+(10/14) installazione in corso di libxmlb                                    [############################################] 100%
+(11/14) installazione in corso di libyaml                                    [############################################] 100%
+(12/14) installazione in corso di appstream                                  [############################################] 100%
+(13/14) installazione in corso di libadwaita                                 [############################################] 100%
+(14/14) installazione in corso di celluloid                                  [############################################] 100%
+:: Esecuzione degli hook di post-transazione...
+(1/6) Arming ConditionNeedsUpdate...
+(2/6) Updating the appstream cache...
+✔ Metadata cache was updated successfully.
+(3/6) Compiling GSettings XML schema files...
+(4/6) Updating icon theme caches...
+(5/6) Updating GTK4 module cache...
+(6/6) Updating the desktop file MIME type cache...
+[aceto ~]$
+

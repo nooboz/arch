@@ -1,0 +1,16 @@
+[aceto ~]$ sudo dd if=/dev/zero of=/swapfile bs=4M count=1024
+[sudo] password di aceto:
+1024+0 records in
+1024+0 records out
+4294967296 bytes (4,3 GB, 4,0 GiB) copied, 6,6583 s, 645 MB/s
+[aceto ~]$ sudo chmod 600 /swapfile
+[aceto ~]$ sudo mkswap /swapfile
+Setting up swapspace version 1, size = 4 GiB (4294963200 bytes)
+nessuna etichetta, UUID=868275e4-d5b3-4286-aea4-776e7983fa7e
+[aceto ~]$ sudo swapon /swapfile
+[aceto ~]$ swapon --show
+NAME      TYPE SIZE USED PRIO
+/swapfile file   4G   0B   -2
+[aceto ~]$ sudo vim /etc/fstab
+[aceto ~]$ top
+

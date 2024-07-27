@@ -1,0 +1,32 @@
+[aceto ~]$ sudo pacman -S ffmpeg4.4 
+[sudo] password di aceto: 
+risoluzione delle dipendenze in corso...
+ricerca dei pacchetti in conflitto in corso...
+
+Pacchetti (2) libmfx-23.2.2-3  ffmpeg4.4-4.4.4-6
+
+Dimensione totale dei pacchetti da scaricare:    8,59 MiB
+Dimensione totale dei pacchetti da installare:  23,62 MiB
+
+:: Vuoi procedere con l'installazione? [S/n] 
+:: Download dei pacchetti in corso...
+ ffmpeg4.4-4.4.4-...     8,5 MiB   980 KiB/s 00:09 [######################] 100%
+ libmfx-23.2.2-3-...    56,6 KiB   404 KiB/s 00:00 [######################] 100%
+ Totale (2/2)            8,6 MiB   952 KiB/s 00:09 [######################] 100%
+(2/2) verifica delle chiavi presenti nel porta...  [######################] 100%
+(2/2) verifica dell'integrità dei pacchetti        [######################] 100%
+(2/2) caricamento dei file dei pacchetti           [######################] 100%
+(2/2) controllo dei conflitti in corso             [######################] 100%
+(2/2) controllo dello spazio disponibile sul disco [######################] 100%
+:: Elaborazione delle modifiche al pacchetto...
+(1/2) installazione in corso di libmfx             [######################] 100%
+(2/2) installazione in corso di ffmpeg4.4          [######################] 100%
+Dipendenze opzionali di ffmpeg4.4
+    avisynthplus: AviSynthPlus support
+    intel-media-sdk: Intel QuickSync support
+    ladspa: LADSPA filters
+    nvidia-utils: Nvidia NVDEC/NVENC support
+:: Esecuzione degli hook di post-transazione...
+(1/1) Arming ConditionNeedsUpdate...
+[aceto ~]$ 
+

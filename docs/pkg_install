@@ -1,0 +1,8 @@
+#fuse2 senza, cryptomator non funziona
+# tor --verbose (dbus-glib)
+# ffmpeg4.4 (per lo streaming in tor)
+# ntfs-3g (solo per montare altre partizioni sull' ssd, in assenza di partizioni o ssd non installarlo).
+# os-prober (idem come per ntfs-3g)
+
+sudo pacman -S xorg-server xorg-apps xorg-xinit i3-wm polybar alsa-utils pulseaudio scrot bash-completion network-manager-applet fuse2 calcurse gvfs yt-dlp mpv dmenu tmux redshift fish firefox dbus-glib neofetch xloadimage ttf-jetbrains-mono vim ffmpeg4.4 xfce4-terminal thunar chromium 
+

@@ -1,0 +1,45 @@
+[aceto ~]$ sudo pacman -S chromium 
+[sudo] password di aceto: 
+risoluzione delle dipendenze in corso...
+ricerca dei pacchetti in conflitto in corso...
+
+Pacchetti (4) libxslt-1.1.42-1  minizip-1:1.3.1-2  ttf-liberation-2.1.5-2
+              chromium-127.0.6533.72-1
+
+Dimensione totale dei pacchetti da scaricare:   102,62 MiB
+Dimensione totale dei pacchetti da installare:  331,63 MiB
+
+:: Vuoi procedere con l'installazione? [S/n] 
+:: Download dei pacchetti in corso...
+ chromium-127.0.6...   100,9 MiB   901 KiB/s 01:55 [######################] 100%
+ ttf-liberation-2...  1566,3 KiB   757 KiB/s 00:02 [######################] 100%
+ libxslt-1.1.42-1...   207,9 KiB   675 KiB/s 00:00 [######################] 100%
+ minizip-1:1.3.1-...    27,5 KiB   229 KiB/s 00:00 [######################] 100%
+ Totale (4/4)          102,6 MiB   895 KiB/s 01:57 [######################] 100%
+(4/4) verifica delle chiavi presenti nel porta...  [######################] 100%
+(4/4) verifica dell'integrità dei pacchetti        [######################] 100%
+(4/4) caricamento dei file dei pacchetti           [######################] 100%
+(4/4) controllo dei conflitti in corso             [######################] 100%
+(4/4) controllo dello spazio disponibile sul disco [######################] 100%
+:: Elaborazione delle modifiche al pacchetto...
+(1/4) installazione in corso di ttf-liberation     [######################] 100%
+(2/4) installazione in corso di minizip            [######################] 100%
+(3/4) installazione in corso di libxslt            [######################] 100%
+Dipendenze opzionali di libxslt
+    python: Python bindings [installato]
+(4/4) installazione in corso di chromium           [######################] 100%
+Dipendenze opzionali di chromium
+    pipewire: WebRTC desktop sharing under Wayland
+    kdialog: support for native dialogs in Plasma
+    gtk4: for --gtk-version=4 (GTK4 IME might work better on Wayland)
+    org.freedesktop.secrets: password storage backend on GNOME / Xfce
+    kwallet: support for storing passwords in KWallet on Plasma
+    upower: Battery Status API support [installato]
+:: Esecuzione degli hook di post-transazione...
+(1/5) Arming ConditionNeedsUpdate...
+(2/5) Updating fontconfig cache...
+(3/5) Updating icon theme caches...
+(4/5) Updating the desktop file MIME type cache...
+(5/5) Updating X fontdir indices...
+[aceto ~]$ 
+

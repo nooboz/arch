@@ -1,0 +1,33 @@
+$ sudo dd if=/dev/zero of=/swapfile bs=4M count=1024
+1024+0 records in
+1024+0 records out
+4294967296 bytes (4,3 GB, 4,0 GiB) copied, 6,89432 s, 623 MB/s
+[~]
+$
+
+sudo chmod 600 /swapfile
+
+$ sudo mkswap /swapfile
+Setting up swapspace version 1, size = 4 GiB (4294963200 bytes)
+nessuna etichetta, UUID=94f37c25-edc0-4a30-9a53-c25b64226ba8
+[~]
+$
+
+sudo swapon /swapfile
+
+$ swapon --show
+NAME      TYPE SIZE USED PRIO
+/swapfile file   4G   0B   -2
+[~]
+$
+
+sudo vim /etc/fstab
+/swapfile        none     swap   defaults                 0 0
+
+#### remove swapfile ####
+sudo rm /swapfile           if don't delete
+sudo swapoff -v /swapfile
+swapoff /swapfile
+sudo rm /swapfile
+sudo vim /etc/fstab     --> in vim "dd" to remove line --> /swapfile        none     swap   defaults                 0 0
+

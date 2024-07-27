@@ -1,0 +1,25 @@
+[aceto ~]$ sudo pacman -S fuse2 
+[sudo] password di aceto: 
+risoluzione delle dipendenze in corso...
+ricerca dei pacchetti in conflitto in corso...
+
+Pacchetti (1) fuse2-2.9.9-5
+
+Dimensione totale dei pacchetti da scaricare:   0,11 MiB
+Dimensione totale dei pacchetti da installare:  0,44 MiB
+
+:: Vuoi procedere con l'installazione? [S/n] 
+:: Download dei pacchetti in corso...
+ fuse2-2.9.9-5-x86_64                                                                                              117,5 KiB   151 KiB/s 00:01 [#######################################################################################] 100%
+(1/1) verifica delle chiavi presenti nel portachiavi                                                                                           [#######################################################################################] 100%
+(1/1) verifica dell'integrità dei pacchetti                                                                                                    [#######################################################################################] 100%
+(1/1) caricamento dei file dei pacchetti                                                                                                       [#######################################################################################] 100%
+(1/1) controllo dei conflitti in corso                                                                                                         [#######################################################################################] 100%
+(1/1) controllo dello spazio disponibile sul disco                                                                                             [#######################################################################################] 100%
+:: Elaborazione delle modifiche al pacchetto...
+(1/1) installazione in corso di fuse2                                                                                                          [#######################################################################################] 100%
+:: Esecuzione degli hook di post-transazione...
+(1/2) Reloading device manager configuration...
+(2/2) Arming ConditionNeedsUpdate...
+[aceto ~]$ 
+

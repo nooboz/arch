@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/aceto/archlinux/.config/calcurse'
+let g:netrw_dirhist_7='/home/v3n/.config/calcurse'
+let g:netrw_dirhist_6='/home/gennj/.config/kitty'
+let g:netrw_dirhist_5='/etc/systemd/system'
+let g:netrw_dirhist_4='/etc/NetworkManager/conf.d'
+let g:netrw_dirhist_3='/home/v3n/music'
+let g:netrw_dirhist_2='/home/v3n/.vim'
+let g:netrw_dirhist_1='/home/v3n'
+let g:netrw_dirhist_0='/home/v3n/.vim'
+let g:netrw_dirhist_9='/home/v3n'

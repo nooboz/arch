@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Program Version="11" Application="Aspect" Name="untitled preset - lead"
+         Author="v3n" Notes="first test lead" Tags="lead experimental"
+         AppVersion="2.0.3">
+  <Parameters Volume="0.6017858386039734" Polyphony="0.529411792755127" Glissando="0.0"
+              Unison="0.5" Osc1Shape="0.0" Osc1Octave="0.5" Osc1Transpose="0.5"
+              Osc1Detune="0.5" Osc1Width="0.5" Osc1PtchMod1Src="0.00699300691485405"
+              Osc1PtchMod1="1.0" Osc1PtchMod2Src="0.0699300691485405" Osc1PtchMod2="0.6599996089935303"
+              Osc1PtchMod3Src="0.1118881106376648" Osc1PtchMod3="0.6374995708465576"
+              Osc1PWMod1Src="0.0" Osc1PWMod1="0.0" Osc1PWMod2Src="0.0" Osc1PWMod2="0.0"
+              Osc1PWMod3Src="0.0" Osc1PWMod3="0.0" Osc2Sync="0.0" Osc2Shape="0.3333333432674408"
+              Osc2Octave="0.5" Osc2Transpose="0.5" Osc2Detune="0.7549997568130493"
+              Osc2Width="0.7375002503395081" Osc2PtchMod1Src="0.00699300691485405"
+              Osc2PtchMod1="1.0" Osc2PtchMod2Src="0.0699300691485405" Osc2PtchMod2="0.1275000125169754"
+              Osc2PtchMod3Src="0.0979020968079567" Osc2PtchMod3="0.1424999684095383"
+              Osc2PWMod1Src="0.0" Osc2PWMod1="0.0" Osc2PWMod2Src="0.0" Osc2PWMod2="0.0"
+              Osc2PWMod3Src="0.0" Osc2PWMod3="0.0" Osc1Mix="0.4450002014636993"
+              Osc2Mix="0.6899998188018799" NoiseMix="0.6974995136260986" Fltr1Input="0.0"
+              Fltr1Cutoff="0.8575001358985901" Fltr1Res="0.03000000864267349"
+              Fltr1Type="0.0" Fltr1CutMod1Src="0.0979020968079567" Fltr1CutMod1="0.0"
+              Fltr1CutMod2Src="0.0" Fltr1CutMod2="0.0" Fltr1CutMod3Src="0.0"
+              Fltr1CutMod3="0.0" Fltr2Input="0.0" Fltr2Cutoff="0.7000002861022949"
+              Fltr2Res="0.01499997079372406" Fltr2Type="0.0" Fltr2CutMod1Src="0.0979020968079567"
+              Fltr2CutMod1="0.4349998235702515" Fltr2CutMod2Src="0.0" Fltr2CutMod2="0.0"
+              Fltr2CutMod3Src="0.0" Fltr2CutMod3="0.0" FltrMix="0.5" FltrMixMod1Src="0.0"
+              FltrMixMod1="0.0" FltrMixMod2Src="0.0" FltrMixMod2="0.4274998307228088"
+              FltrMixMod3Src="0.0" FltrMixMod3="0.0" AmpMod1Src="0.3916083872318268"
+              AmpMod1="1.0" AmpMod2Src="0.02097902074456215" AmpMod2="1.0"
+              AmpMod3Src="0.0" AmpMod3="0.0" AmpPan="0.5" AmpPanMod1Src="0.0"
+              AmpPanMod1="0.0" AmpPanMod2Src="0.0" AmpPanMod2="0.0" AmpPanMod3Src="0.0"
+              AmpPanMod3="0.0" Env1Attack="0.0" Env1Decay="0.4724997580051422"
+              Env1Sustain="1.0" Env1Release="0.09749998152256012" Env2Attack="0.0"
+              Env2Decay="0.4274997711181641" Env2Sustain="1.0" Env2Release="0.1874999552965164"
+              Env3Attack="0.0" Env3Decay="0.0" Env3Sustain="1.0" Env3Release="0.0"
+              LFO1TempoSync="0.0" LFO1Shape="0.0" LFO1Rate="0.15811388194561"
+              LFO1SyncRate="0.625" LFO1RateMod1Src="0.0" LFO1RateMod1="0.0"
+              LFO1RateMod2Src="0.0" LFO1RateMod2="0.0" LFO1RateMod3Src="0.0"
+              LFO1RateMod3="0.0" LFO2TempoSync="0.0" LFO2Shape="0.0" LFO2Rate="0.5556137561798096"
+              LFO2SyncRate="0.625" LFO2RateMod1Src="0.0" LFO2RateMod1="0.0"
+              LFO2RateMod2Src="0.0" LFO2RateMod2="0.0" LFO2RateMod3Src="0.0"
+              LFO2RateMod3="0.0" LFO3TempoSync="0.0" LFO3Shape="0.0" LFO3Rate="0.15811388194561"
+              LFO3SyncRate="0.625" LFO3RateMod1Src="0.0" LFO3RateMod1="0.0"
+              LFO3RateMod2Src="0.0" LFO3RateMod2="0.0" LFO3RateMod3Src="0.0"
+              LFO3RateMod3="0.0" SH1In="0.0" SH1Clock="0.0" Inverter1In="0.0"
+              Inverter2In="0.0" Adder1In1="0.0" Adder1In2="0.0" Adder2In1="0.0"
+              Adder2In2="0.0" Mult1In1="0.0" Mult1In2="0.0" Mult2In1="0.0"
+              Mult2In2="0.0" Lag1In="0.0" Lag1="0.0" AlwaysGlide="0.0" Env1Trigger="0.0"
+              Env2Trigger="0.0" Env3Trigger="0.0" Macro1="0.0" Macro2="0.0"
+              Macro3="0.0" Macro4="0.0" Macro5="0.0" Macro6="0.0" Macro7="0.0"
+              Macro8="0.0" NoiseColour="1.0" LFO1PhsOffset="0.5" LFO1PhsMod1Src="0.0"
+              LFO1PhsMod1="0.0" LFO1PhsMod2Src="0.0" LFO1PhsMod2="0.0" LFO1PhsMod3Src="0.0"
+              LFO1PhsMod3="0.0" LFO2PhsOffset="0.5" LFO2PhsMod1Src="0.0" LFO2PhsMod1="0.0"
+              LFO2PhsMod2Src="0.0" LFO2PhsMod2="0.0" LFO2PhsMod3Src="0.0" LFO2PhsMod3="0.0"
+              LFO3PhsOffset="0.5" LFO3PhsMod1Src="0.0" LFO3PhsMod1="0.0" LFO3PhsMod2Src="0.0"
+              LFO3PhsMod2="0.0" LFO3PhsMod3Src="0.0" LFO3PhsMod3="0.0" Env1Type="0.0"
+              Env2Type="0.0" Env3Type="0.0" Mseg1Sync="0.0" Mseg2Sync="0.0"
+              Mseg3Sync="0.0" Mseg1Launch="1.0" Mseg2Launch="0.5" Mseg3Launch="0.5"
+              Mseg1Loop="0.0" Mseg2Loop="0.0" Mseg3Loop="0.0" Mseg1Reset="1.0"
+              Mseg2Reset="1.0" Mseg3Reset="1.0" Fltr1ResMod1Src="0.0" Fltr1ResMod1="0.0"
+              Fltr1ResMod2Src="0.0" Fltr1ResMod2="0.0" Fltr1ResMod3Src="0.0"
+              Fltr1ResMod3="0.0" Fltr2ResMod1Src="0.0" Fltr2ResMod1="0.0" Fltr2ResMod2Src="0.0"
+              Fltr2ResMod2="0.0" Fltr2ResMod3Src="0.0" Fltr2ResMod3="0.0" Env1AtkMod1Src="0.0"
+              Env1AtkMod1="0.0" Env1AtkMod2Src="0.0" Env1AtkMod2="0.0" Env1AtkMod3Src="0.0"
+              Env1AtkMod3="0.0" Env1DcyMod1Src="0.0" Env1DcyMod1="0.0" Env1DcyMod2Src="0.0"
+              Env1DcyMod2="0.0" Env1DcyMod3Src="0.0" Env1DcyMod3="0.0" Env1RlsMod1Src="0.0"
+              Env1RlsMod1="0.0" Env1RlsMod2Src="0.0" Env1RlsMod2="0.0" Env1RlsMod3Src="0.0"
+              Env1RlsMod3="0.0" Env2AtkMod1Src="0.0" Env2AtkMod1="0.0" Env2AtkMod2Src="0.0"
+              Env2AtkMod2="0.0" Env2AtkMod3Src="0.0" Env2AtkMod3="0.0" Env2DcyMod1Src="0.0"
+              Env2DcyMod1="0.0" Env2DcyMod2Src="0.0" Env2DcyMod2="0.0" Env2DcyMod3Src="0.0"
+              Env2DcyMod3="0.0" Env2RlsMod1Src="0.0" Env2RlsMod1="0.0" Env2RlsMod2Src="0.0"
+              Env2RlsMod2="0.0" Env2RlsMod3Src="0.0" Env2RlsMod3="0.0" Env3AtkMod1Src="0.0"
+              Env3AtkMod1="0.0" Env3AtkMod2Src="0.0" Env3AtkMod2="0.0" Env3AtkMod3Src="0.0"
+              Env3AtkMod3="0.0" Env3DcyMod1Src="0.0" Env3DcyMod1="0.0" Env3DcyMod2Src="0.0"
+              Env3DcyMod2="0.0" Env3DcyMod3Src="0.0" Env3DcyMod3="0.0" Env3RlsMod1Src="0.0"
+              Env3RlsMod1="0.0" Env3RlsMod2Src="0.0" Env3RlsMod2="0.0" Env3RlsMod3Src="0.0"
+              Env3RlsMod3="0.0" MixerOsc1Mod1Src="0.4545454680919647" MixerOsc1Mod1="0.6599996089935303"
+              MixerOsc1Mod2Src="0.0" MixerOsc1Mod2="0.0" MixerOsc1Mod3Src="0.0"
+              MixerOsc1Mod3="0.0" MixerOsc2Mod1Src="0.4475524425506592" MixerOsc2Mod1="0.4874998331069946"
+              MixerOsc2Mod2Src="0.0" MixerOsc2Mod2="0.0" MixerOsc2Mod3Src="0.0"
+              MixerOsc2Mod3="0.0" MixerNsMod1Src="0.0" MixerNsMod1="0.0" MixerNsMod2Src="0.0"
+              MixerNsMod2="0.0" MixerNsMod3Src="0.0" MixerNsMod3="0.0" Tuning="0.5"
+              TuningMod1Src="0.0" TuningMod1="0.0" TuningMod2Src="0.0" TuningMod2="0.0"
+              TuningMod3Src="0.0" TuningMod3="0.0" Amp="0.9210519790649414"
+              LFO1Mono="0.0" LFO2Mono="0.0" LFO3Mono="0.0" SeqSteps="0.4838709533214569"
+              SeqSync="1.0" SeqReset="0.0" SeqRate="0.0" SeqSyncRate="0.625"
+              SeqRange="0.0" SeqRateMod1Src="0.0" SeqRateMod1="0.0" SeqRateMod2Src="0.0"
+              SeqRateMod2="0.0" SeqRateMod3Src="0.0" SeqRateMod3="0.0" SeqSyncRtMod1Src="0.0"
+              SeqSyncRtMod1="0.0" SeqSyncRtMod2Src="0.0" SeqSyncRtMod2="0.0"
+              SeqSyncRtMod3Src="0.0" SeqSyncRtMod3="0.0" SH2In="0.0" SH2Clock="0.0"
+              SH3In="0.0" SH3Clock="0.0" SH4In="0.0" SH4Clock="0.0" Adder3In1="0.0"
+              Adder3In2="0.0" Adder4In1="0.0" Adder4In2="0.0" Adder5In1="0.0"
+              Adder5In2="0.0" Adder6In1="0.0" Adder6In2="0.0" Adder7In1="0.0"
+              Adder7In2="0.0" Adder8In1="0.0" Adder8In2="0.0" Mult3In1="0.0"
+              Mult3In2="0.0" Mult4In1="0.0" Mult4In2="0.0" Mult5In1="0.0" Mult5In2="0.0"
+              Mult6In1="0.0" Mult6In2="0.0" Mult7In1="0.0" Mult7In2="0.0" Mult8In1="0.0"
+              Mult8In2="0.0" Inverter3In="0.0" Inverter4In="0.0" Inverter5In="0.0"
+              Inverter6In="0.0" Inverter7In="0.0" Inverter8In="0.0" Lag2In="0.0"
+              Lag2="0.0" Lag3In="0.0" Lag3="0.0" Lag4In="0.0" Lag4="0.0" Rectifier1In="0.0"
+              Rectifier2In="0.0" Rectifier3In="0.0" Rectifier4In="0.0" Rectifier5In="0.0"
+              Rectifier6In="0.0" Rectifier7In="0.0" Rectifier8In="0.0" Unipolar1In="0.0"
+              Unipolar2In="0.0" Unipolar3In="0.0" Unipolar4In="0.0" Unipolar5In="0.0"
+              Unipolar6In="0.0" Unipolar7In="0.0" Unipolar8In="0.0" Bipolar1In="0.0"
+              Bipolar2In="0.0" Bipolar3In="0.0" Bipolar4In="0.0" Bipolar5In="0.0"
+              Bipolar6In="0.0" Bipolar7In="0.0" Bipolar8In="0.0" LFO1SncRtMod1Src="0.0"
+              LFO1SncRtMod1="0.0" LFO1SncRtMod2Src="0.0" LFO1SncRtMod2="0.0"
+              LFO1SncRtMod3Src="0.0" LFO1SncRtMod3="0.0" LFO2SncRtMod1Src="0.0"
+              LFO2SncRtMod1="0.0" LFO2SncRtMod2Src="0.0" LFO2SncRtMod2="0.0"
+              LFO2SncRtMod3Src="0.0" LFO2SncRtMod3="0.0" LFO3SncRtMod1Src="0.0"
+              LFO3SncRtMod1="0.0" LFO3SncRtMod2Src="0.0" LFO3SncRtMod2="0.0"
+              LFO3SncRtMod3Src="0.0" LFO3SncRtMod3="0.0" Mapper1In="0.0" Mapper1Mode="0.0"
+              Mapper2In="0.0" Mapper2Mode="0.0" Mapper3In="0.0" Mapper3Mode="0.0"
+              Mapper4In="0.0" Mapper4Mode="0.0" SeqEnvTrigger="0.0" Quant1In="0.0"
+              Quant1Quotient="0.1111111119389534" Quant2In="0.0" Quant2Quotient="0.1111111119389534"
+              Quant3In="0.0" Quant3Quotient="0.1111111119389534" Quant4In="0.0"
+              Quant4Quotient="0.1111111119389534"/>
+  <InternalSettings>
+    <LegacyTuning>false</LegacyTuning>
+    <Engine>1</Engine>
+  </InternalSettings>
+  <Patch>
+    <Modules/>
+  </Patch>
+  <Macros>
+    <Macro Name="MACRO 1"/>
+    <Macro Name="MACRO 2"/>
+    <Macro Name="MACRO 3"/>
+    <Macro Name="MACRO 4"/>
+    <Macro Name="MACRO 5"/>
+    <Macro Name="MACRO 6"/>
+    <Macro Name="MACRO 7"/>
+    <Macro Name="MACRO 8"/>
+  </Macros>
+  <SeqValues>0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000</SeqValues>
+  <SeqBools>1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1</SeqBools>
+  <Mseg1>
+    <Segments>
+      <CurveSegment>
+        <Start>0</Start>
+        <Curvature>0.5</Curvature>
+        <Length>1</Length>
+      </CurveSegment>
+      <CurveSegment>
+        <Start>0.75</Start>
+        <Curvature>0.5</Curvature>
+        <Length>1</Length>
+      </CurveSegment>
+      <CurveSegment>
+        <Start>0.75</Start>
+        <Curvature>0.5</Curvature>
+        <Length>1</Length>
+      </CurveSegment>
+      <CurveSegment>
+        <Start>0</Start>
+        <Curvature>0.5</Curvature>
+        <Length>0</Length>
+      </CurveSegment>
+    </Segments>
+    <Loop>
+      <Begin>1</Begin>
+      <End>2</End>
+    </Loop>
+    <View>
+      <Position>0</Position>
+      <Scale>0.02</Scale>
+    </View>
+    <Settings>
+      <Snap>8</Snap>
+    </Settings>
+  </Mseg1>
+  <Mseg2>
+    <Segments>
+      <CurveSegment>
+        <Start>0</Start>
+        <Curvature>0.5</Curvature>
+        <Length>1</Length>
+      </CurveSegment>
+      <CurveSegment>
+        <Start>0.75</Start>
+        <Curvature>0.5</Curvature>
+        <Length>1</Length>
+      </CurveSegment>
+      <CurveSegment>
+        <Start>0.75</Start>
+        <Curvature>0.5</Curvature>
+        <Length>1</Length>
+      </CurveSegment>
+      <CurveSegment>
+        <Start>0</Start>
+        <Curvature>0.5</Curvature>
+        <Length>0</Length>
+      </CurveSegment>
+    </Segments>
+    <Loop>
+      <Begin>1</Begin>
+      <End>2</End>
+    </Loop>
+    <View>
+      <Position>0</Position>
+      <Scale>0.02</Scale>
+    </View>
+    <Settings>
+      <Snap>8</Snap>
+    </Settings>
+  </Mseg2>
+  <Mseg3>
+    <Segments>
+      <CurveSegment>
+        <Start>0</Start>
+        <Curvature>0.5</Curvature>
+        <Length>1</Length>
+      </CurveSegment>
+      <CurveSegment>
+        <Start>0.75</Start>
+        <Curvature>0.5</Curvature>
+        <Length>1</Length>
+      </CurveSegment>
+      <CurveSegment>
+        <Start>0.75</Start>
+        <Curvature>0.5</Curvature>
+        <Length>1</Length>
+      </CurveSegment>
+      <CurveSegment>
+        <Start>0</Start>
+        <Curvature>0.5</Curvature>
+        <Length>0</Length>
+      </CurveSegment>
+    </Segments>
+    <Loop>
+      <Begin>1</Begin>
+      <End>2</End>
+    </Loop>
+    <View>
+      <Position>0</Position>
+      <Scale>0.02</Scale>
+    </View>
+    <Settings>
+      <Snap>8</Snap>
+    </Settings>
+  </Mseg3>
+  <Mapper1>
+    <Segments>
+      <CurveSegment>
+        <Start>0</Start>
+        <Curvature>0.5</Curvature>
+        <Length>1</Length>
+      </CurveSegment>
+      <CurveSegment>
+        <Start>1</Start>
+        <Curvature>0.5</Curvature>
+        <Length>0</Length>
+      </CurveSegment>
+    </Segments>
+  </Mapper1>
+  <Mapper2>
+    <Segments>
+      <CurveSegment>
+        <Start>0</Start>
+        <Curvature>0.5</Curvature>
+        <Length>1</Length>
+      </CurveSegment>
+      <CurveSegment>
+        <Start>1</Start>
+        <Curvature>0.5</Curvature>
+        <Length>0</Length>
+      </CurveSegment>
+    </Segments>
+  </Mapper2>
+  <Mapper3>
+    <Segments>
+      <CurveSegment>
+        <Start>0</Start>
+        <Curvature>0.5</Curvature>
+        <Length>1</Length>
+      </CurveSegment>
+      <CurveSegment>
+        <Start>1</Start>
+        <Curvature>0.5</Curvature>
+        <Length>0</Length>
+      </CurveSegment>
+    </Segments>
+  </Mapper3>
+  <Mapper4>
+    <Segments>
+      <CurveSegment>
+        <Start>0</Start>
+        <Curvature>0.5</Curvature>
+        <Length>1</Length>
+      </CurveSegment>
+      <CurveSegment>
+        <Start>1</Start>
+        <Curvature>0.5</Curvature>
+        <Length>0</Length>
+      </CurveSegment>
+    </Segments>
+  </Mapper4>
+</Program>

@@ -1,0 +1,134 @@
+[aceto ~]$ i xfce4 
+[sudo] password di aceto: 
+:: Ci sono 15 membri nel gruppo xfce4:
+:: Repository extra
+   1) exo  2) garcon  3) thunar  4) thunar-volman  5) tumbler  6) xfce4-appfinder  7) xfce4-panel  8) xfce4-power-manager  9) xfce4-session  10) xfce4-settings  11) xfce4-terminal  12) xfconf  13) xfdesktop  14) xfwm4  15) xfwm4-themes
+
+Digita una selezione (default=tutto): 
+attenzione: exo-4.18.0-2 è aggiornato ma sarà reinstallato
+attenzione: thunar-4.18.10-2 è aggiornato ma sarà reinstallato
+attenzione: xfce4-terminal-1.1.3-1 è aggiornato ma sarà reinstallato
+attenzione: xfconf-4.18.3-1 è aggiornato ma sarà reinstallato
+risoluzione delle dipendenze in corso...
+ricerca dei pacchetti in conflitto in corso...
+
+Pacchetti (31) colord-1.4.7-2  elementary-icon-theme-8.0.0-1  gnome-themes-extra-3.28+r6+g45b1d457-2  libcanberra-1:0.30+r2+gc0620e4-4  libgusb-0.4.9-1  libimobiledevice-1.3.0-13  libimobiledevice-glue-1.3.0-1  libplist-2.6.0-1
+               libusbmuxd-2.1.0-1  libwnck3-43.0-3  libxklavier-5.4-5  libxres-1.2.2-2  polkit-gnome-0.105-11  sound-theme-freedesktop-0.8-6  upower-1.90.4-1  xfce4-notifyd-0.9.4-1  exo-4.18.0-2  garcon-4.18.2-1  thunar-4.18.10-2
+               thunar-volman-4.18.0-2  tumbler-4.18.2-1  xfce4-appfinder-4.18.1-2  xfce4-panel-4.18.6-1  xfce4-power-manager-4.18.4-1  xfce4-session-4.18.4-1  xfce4-settings-4.18.6-1  xfce4-terminal-1.1.3-1  xfconf-4.18.3-1
+               xfdesktop-4.18.1-2  xfwm4-4.18.0-2  xfwm4-themes-4.10.0-6
+
+Dimensione totale dei pacchetti da scaricare:   15,60 MiB
+Dimensione totale dei pacchetti da installare:  93,78 MiB
+Dimensione netta dell'aggiornamento:            80,04 MiB
+
+:: Vuoi procedere con l'installazione? [S/n] 
+:: Download dei pacchetti in corso...
+ elementary-icon-theme-8.0.0-1-any                                                                                   2,7 MiB   726 KiB/s 00:04 [#######################################################################################] 100%
+ gnome-themes-extra-3.28+r6+g45b1d457-2-x86_64                                                                       2,5 MiB   944 KiB/s 00:03 [#######################################################################################] 100%
+ colord-1.4.7-2-x86_64                                                                                            1639,4 KiB   554 KiB/s 00:03 [#######################################################################################] 100%
+ xfdesktop-4.18.1-2-x86_64                                                                                        1394,5 KiB   490 KiB/s 00:03 [#######################################################################################] 100%
+ libgusb-0.4.9-1-x86_64                                                                                           1127,9 KiB   636 KiB/s 00:02 [#######################################################################################] 100%
+ xfce4-panel-4.18.6-1-x86_64                                                                                       897,2 KiB   405 KiB/s 00:02 [#######################################################################################] 100%
+ xfce4-settings-4.18.6-1-x86_64                                                                                    887,2 KiB   501 KiB/s 00:02 [#######################################################################################] 100%
+ xfwm4-themes-4.10.0-6-any                                                                                         568,2 KiB   553 KiB/s 00:01 [#######################################################################################] 100%
+ xfce4-power-manager-4.18.4-1-x86_64                                                                               541,7 KiB   635 KiB/s 00:01 [#######################################################################################] 100%
+ libimobiledevice-1.3.0-13-x86_64                                                                                  528,7 KiB   658 KiB/s 00:01 [#######################################################################################] 100%
+ xfwm4-4.18.0-2-x86_64                                                                                             495,8 KiB   722 KiB/s 00:01 [#######################################################################################] 100%
+ libwnck3-43.0-3-x86_64                                                                                            437,6 KiB   646 KiB/s 00:01 [#######################################################################################] 100%
+ sound-theme-freedesktop-0.8-6-any                                                                                 368,6 KiB   548 KiB/s 00:01 [#######################################################################################] 100%
+ xfce4-session-4.18.4-1-x86_64                                                                                     365,6 KiB   783 KiB/s 00:00 [#######################################################################################] 100%
+ xfce4-notifyd-0.9.4-1-x86_64                                                                                      208,9 KiB   454 KiB/s 00:00 [#######################################################################################] 100%
+ libplist-2.6.0-1-x86_64                                                                                           169,8 KiB   504 KiB/s 00:00 [#######################################################################################] 100%
+ tumbler-4.18.2-1-x86_64                                                                                           169,1 KiB   598 KiB/s 00:00 [#######################################################################################] 100%
+ garcon-4.18.2-1-x86_64                                                                                            167,3 KiB   613 KiB/s 00:00 [#######################################################################################] 100%
+ xfce4-appfinder-4.18.1-2-x86_64                                                                                   162,1 KiB   617 KiB/s 00:00 [#######################################################################################] 100%
+ upower-1.90.4-1-x86_64                                                                                            145,8 KiB   552 KiB/s 00:00 [#######################################################################################] 100%
+ thunar-volman-4.18.0-2-x86_64                                                                                     129,7 KiB   598 KiB/s 00:00 [#######################################################################################] 100%
+ libcanberra-1:0.30+r2+gc0620e4-4-x86_64                                                                            88,0 KiB   408 KiB/s 00:00 [#######################################################################################] 100%
+ libxklavier-5.4-5-x86_64                                                                                           69,4 KiB   434 KiB/s 00:00 [#######################################################################################] 100%
+ polkit-gnome-0.105-11-x86_64                                                                                       62,1 KiB   366 KiB/s 00:00 [#######################################################################################] 100%
+ libimobiledevice-glue-1.3.0-1-x86_64                                                                               35,8 KiB   291 KiB/s 00:00 [#######################################################################################] 100%
+ libusbmuxd-2.1.0-1-x86_64                                                                                          27,9 KiB   260 KiB/s 00:00 [#######################################################################################] 100%
+ libxres-1.2.2-2-x86_64                                                                                             10,3 KiB   103 KiB/s 00:00 [#######################################################################################] 100%
+ Totale (27/27)                                                                                                     15,6 MiB   560 KiB/s 00:29 [#######################################################################################] 100%
+(31/31) verifica delle chiavi presenti nel portachiavi                                                                                         [#######################################################################################] 100%
+(31/31) verifica dell'integrità dei pacchetti                                                                                                  [#######################################################################################] 100%
+(31/31) caricamento dei file dei pacchetti                                                                                                     [#######################################################################################] 100%
+(31/31) controllo dei conflitti in corso                                                                                                       [#######################################################################################] 100%
+(31/31) controllo dello spazio disponibile sul disco                                                                                           [#######################################################################################] 100%
+:: Elaborazione delle modifiche al pacchetto...
+( 1/31) reinstallazione xfconf                                                                                                                 [#######################################################################################] 100%
+( 2/31) reinstallazione exo                                                                                                                    [#######################################################################################] 100%
+( 3/31) installazione in corso di garcon                                                                                                       [#######################################################################################] 100%
+( 4/31) reinstallazione thunar                                                                                                                 [#######################################################################################] 100%
+( 5/31) installazione in corso di thunar-volman                                                                                                [#######################################################################################] 100%
+( 6/31) installazione in corso di tumbler                                                                                                      [#######################################################################################] 100%
+Dipendenze opzionali di tumbler
+    ffmpegthumbnailer: video thumbnails
+    poppler-glib: PDF thumbnails
+    libgsf: ODF thumbnails
+    libgepub: EPUB thumbnails
+    libopenraw: RAW thumbnails
+    freetype2: font thumbnails [installato]
+( 7/31) installazione in corso di xfce4-appfinder                                                                                              [#######################################################################################] 100%
+( 8/31) installazione in corso di libxres                                                                                                      [#######################################################################################] 100%
+( 9/31) installazione in corso di libwnck3                                                                                                     [#######################################################################################] 100%
+(10/31) installazione in corso di xfce4-panel                                                                                                  [#######################################################################################] 100%
+(11/31) installazione in corso di libplist                                                                                                     [#######################################################################################] 100%
+Dipendenze opzionali di libplist
+    python: Python bindings [installato]
+(12/31) installazione in corso di libimobiledevice-glue                                                                                        [#######################################################################################] 100%
+(13/31) installazione in corso di libusbmuxd                                                                                                   [#######################################################################################] 100%
+(14/31) installazione in corso di libimobiledevice                                                                                             [#######################################################################################] 100%
+Dipendenze opzionali di libimobiledevice
+    python: Python bindings [installato]
+(15/31) installazione in corso di upower                                                                                                       [#######################################################################################] 100%
+Dipendenze opzionali di upower
+    usbmuxd: Read charge status of iOS devices
+(16/31) installazione in corso di sound-theme-freedesktop                                                                                      [#######################################################################################] 100%
+(17/31) installazione in corso di libcanberra                                                                                                  [#######################################################################################] 100%
+Dipendenze opzionali di libcanberra
+    gtk3: canberra-gtk-play [installato]
+(18/31) installazione in corso di xfce4-notifyd                                                                                                [#######################################################################################] 100%
+(19/31) installazione in corso di xfce4-power-manager                                                                                          [#######################################################################################] 100%
+(20/31) installazione in corso di polkit-gnome                                                                                                 [#######################################################################################] 100%
+(21/31) installazione in corso di xfce4-session                                                                                                [#######################################################################################] 100%
+Dipendenze opzionali di xfce4-session
+    gnome-keyring: for keyring support when GNOME compatibility is enabled
+    xfce4-screensaver: for locking screen with xflock4
+    xscreensaver: for locking screen with xflock4
+    light-locker: for locking screen with xflock4
+(22/31) installazione in corso di libgusb                                                                                                      [#######################################################################################] 100%
+(23/31) installazione in corso di colord                                                                                                       [#######################################################################################] 100%
+Dipendenze opzionali di colord
+    argyllcms: color profiling
+    colord-sane: SANE support
+(24/31) installazione in corso di libxklavier                                                                                                  [#######################################################################################] 100%
+(25/31) installazione in corso di elementary-icon-theme                                                                                        [#######################################################################################] 100%
+(26/31) installazione in corso di gnome-themes-extra                                                                                           [#######################################################################################] 100%
+Dipendenze opzionali di gnome-themes-extra
+    gtk-engines: HighContrast GTK2 theme
+(27/31) installazione in corso di xfce4-settings                                                                                               [#######################################################################################] 100%
+Dipendenze opzionali di xfce4-settings
+    python: xfce4-compose-mail -- "mailto:" URI handling [installato]
+(28/31) reinstallazione xfce4-terminal                                                                                                         [#######################################################################################] 100%
+(29/31) installazione in corso di xfdesktop                                                                                                    [#######################################################################################] 100%
+(30/31) installazione in corso di xfwm4                                                                                                        [#######################################################################################] 100%
+(31/31) installazione in corso di xfwm4-themes                                                                                                 [#######################################################################################] 100%
+:: Esecuzione degli hook di post-transazione...
+( 1/12) Creating system user accounts...
+Creating group 'colord' with GID 971.
+Creating user 'colord' (Color management daemon) with UID 971 and GID 971.
+( 2/12) Reloading system manager configuration...
+( 3/12) Reloading user manager configuration...
+( 4/12) Updating udev hardware database...
+( 5/12) Creating temporary files...
+( 6/12) Reloading device manager configuration...
+( 7/12) Arming ConditionNeedsUpdate...
+( 8/12) Reloading system bus configuration...
+( 9/12) Updating GIO module cache...
+(10/12) Compiling GSettings XML schema files...
+(11/12) Updating icon theme caches...
+(12/12) Updating the desktop file MIME type cache...
+[aceto ~]$ 
+
